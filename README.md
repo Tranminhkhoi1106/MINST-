@@ -52,7 +52,7 @@ This project aims to:
    df_train.isnull().sum().any()  # Result: False
    ```
 
-✅ **No missing data or corrupt images** were found.
+=> **No missing data or corrupt images** were found.
 
 ---
 
@@ -150,25 +150,25 @@ rl).
 
 ---
 
-## 🧾 7. Insights & Discussion
+## 7. Insights & Discussion
 
 * **Accuracy of 97%** demonstrates Random Forest’s robustness on structured datasets like MNIST.
 * It performs well without convolutional feature extraction.
 * Misclassifications mainly occur between digits with overlapping handwriting shapes.
 
-🔍 **Advantages:**
+ **Advantages:**
 
 * Simple to train and interpret.
 * Resistant to overfitting with enough trees.
 
-⚠️ **Limitations:**
+ **Limitations:**
 
 * High memory usage (many trees).
 * Not ideal for large or high-resolution image datasets.
 
 ---
 
-## 🚀 8. Future Improvements
+## 8. Future Improvements
 
 * Compare with **Convolutional Neural Networks (CNNs)** for feature learning.
 * Use **Principal Component Analysis (PCA)** to reduce dimensionality before training.
@@ -176,19 +176,10 @@ rl).
 
 ---
 
-## 🧩 9. Key Takeaways
+## 9. Key Takeaways
 
 ✅ Random Forest achieves **high accuracy** on MNIST without deep learning.
 ✅ Minimal preprocessing (flattening only) is sufficient.
 ✅ Excellent baseline model for image classification benchmarks.
 
 ---
-
-## 📅 Author & License
-
-**Author:** [Your Name]
-**License:** MIT
-
----
-
-Would you like me to make a short **executive summary paragraph** (2–3 sentences) to place at the very top of this README — useful if you’re adding it to a portfolio or GitHub repo?
